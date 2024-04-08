@@ -46,7 +46,8 @@ i was practicing for an interview on HackerRank and realized it would be useful 
 ## roadmap
 
 ### mvp 
-- [ ] build hackerrank problem db manually
+- [x] build hackerrank problem db manually
+- [x] figure out how to connect script to db
 - [ ] populate above with random data and heavy manual intervention on keys
 - [ ] populate above programmatically, keys included
 - [ ] take input file for hakcerrank and build db programmatically
