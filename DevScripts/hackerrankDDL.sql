@@ -1,8 +1,9 @@
 create schema hackerrank;
 
+drop table if exists hackerrank.contest;
 create table hackerrank.contest (
-	contest_id int 
-	, hacker_id int 
+	contest_id uuid
+	, hacker_id uuid 
 	, hacker_name varchar
 );
 
