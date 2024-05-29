@@ -1,0 +1,16 @@
+services:
+  postgresql:
+    image: bitnami/postgresql:latest
+    environment:
+      - POSTGRESQL_USERNAME=dbuser
+      - POSTGRESQL_PASSWORD=dbpw
+      - POSTGRESQL_POSTGRES_PASSWORD=123
+      - ALLOW_EMPTY_PASSWORD=True
+    volumes:
+      - data:/bitnami/postgresql
+    ports:
+      - "5432:5432"
+
+volumes:
+  data:
+    driver: local
